@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(rgba(170, 157, 255, 1), rgb(90, 74, 163));
+}
+
+.box {
+    margin: auto;
+    margin-top: 10%;
+    display: block;
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(35, 28, 45, 0.899);
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.boxtext {
+    padding-top: 30px;
+    text-shadow: 3px 3px 7px #2e2e2e;
+    color: ghostwhite;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.billtext {
+    margin-top: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.inputbill {
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    height: 20px;
+    width: 70%;
+    padding: 6px 12px;
+    background: rgb(90, 74, 163, 0.5);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(247, 248, 248);
+    appearance: none;
+    transition: border 0.15s ease 0s;
+}
+
+.peopletext {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.tpptext {
+    float: right;
+}
+
+.tppnum {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.yekesmerandom {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buttons {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(170, 157, 255, 1);
+}
+
+.buttons:hover {
+    background-color: rgb(196, 187, 252);
+    cursor: pointer;
+}
+
+.btntextbetween {
+    display: inline-block;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(247, 248, 248);
+}
